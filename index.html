@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_85c09a9324f957e3488cb9b11a2d2205 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_85c09a9324f957e3488cb9b11a2d2205" ></div>
+        
+</body>
+<script>    
+    
+            var map_85c09a9324f957e3488cb9b11a2d2205 = L.map(
+                "map_85c09a9324f957e3488cb9b11a2d2205",
+                {
+                    center: [45.5031824, -73.5698065],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c904c6f5cb8e213dd0b3e068af68a4cb = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_85c09a9324f957e3488cb9b11a2d2205);
+        
+    
+            var marker_6271e61a2fdc3ca4f9a20638b03d6a96 = L.marker(
+                [45.4811018, -73.5524031],
+                {}
+            ).addTo(map_85c09a9324f957e3488cb9b11a2d2205);
+        
+    
+        var popup_b1de655364bfe8d15c1a8f448ff4d5a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb225d9575b562e70a7cb0d2a838fd5d = $(`<div id="html_cb225d9575b562e70a7cb0d2a838fd5d" style="width: 100.0%; height: 100.0%;">Cycle 7 Coop, 1900, Rue Le Ber, Pointe-Saint-Charles, Le Sud-Ouest, Montréal, Agglomération de Montréal, Montréal (06), Québec, H3K 2A4, Canada</div>`)[0];
+            popup_b1de655364bfe8d15c1a8f448ff4d5a0.setContent(html_cb225d9575b562e70a7cb0d2a838fd5d);
+        
+
+        marker_6271e61a2fdc3ca4f9a20638b03d6a96.bindPopup(popup_b1de655364bfe8d15c1a8f448ff4d5a0)
+        ;
+
+        
+    
+    
+            marker_6271e61a2fdc3ca4f9a20638b03d6a96.bindTooltip(
+                `<div>
+                     Click Me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a301056264504a68dcfaf54d52c43e98 = L.marker(
+                [45.5846192, -73.6248159],
+                {}
+            ).addTo(map_85c09a9324f957e3488cb9b11a2d2205);
+        
+    
+        var popup_73f47ba96c9997f2d068f469315e16a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72e76423769d4d140fe5b7cafce879c8 = $(`<div id="html_72e76423769d4d140fe5b7cafce879c8" style="width: 100.0%; height: 100.0%;">54e Rue, Port-Maurice, Saint-Léonard, Montréal, Agglomération de Montréal, Montréal (06), Québec, H1Z 4E2, Canada</div>`)[0];
+            popup_73f47ba96c9997f2d068f469315e16a0.setContent(html_72e76423769d4d140fe5b7cafce879c8);
+        
+
+        marker_a301056264504a68dcfaf54d52c43e98.bindPopup(popup_73f47ba96c9997f2d068f469315e16a0)
+        ;
+
+        
+    
+    
+            marker_a301056264504a68dcfaf54d52c43e98.bindTooltip(
+                `<div>
+                     Click Me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a708ba0a388240fdcedfbe5a2307b6f = L.marker(
+                [45.5679098, -73.5894835],
+                {}
+            ).addTo(map_85c09a9324f957e3488cb9b11a2d2205);
+        
+    
+        var popup_276137268634e2b96e682b17ea2f27de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce0eca702215ef440e89c0568b7977cd = $(`<div id="html_ce0eca702215ef440e89c0568b7977cd" style="width: 100.0%; height: 100.0%;">Metro, Rue Jean-Talon Est, Port-Maurice, Saint-Léonard, Montréal, Agglomération de Montréal, Montréal (06), Québec, H1S 1J8, Canada</div>`)[0];
+            popup_276137268634e2b96e682b17ea2f27de.setContent(html_ce0eca702215ef440e89c0568b7977cd);
+        
+
+        marker_6a708ba0a388240fdcedfbe5a2307b6f.bindPopup(popup_276137268634e2b96e682b17ea2f27de)
+        ;
+
+        
+    
+    
+            marker_6a708ba0a388240fdcedfbe5a2307b6f.bindTooltip(
+                `<div>
+                     Click Me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_327055964f04d4008741bf32ed01f7b0 = L.marker(
+                [45.527231, -73.61623],
+                {}
+            ).addTo(map_85c09a9324f957e3488cb9b11a2d2205);
+        
+    
+            var icon_7dddec41d0c30499923f7c8866f6109b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_327055964f04d4008741bf32ed01f7b0.setIcon(icon_7dddec41d0c30499923f7c8866f6109b);
+        
+    
+        var popup_193a01e72d5486201b39ffbde53ff2af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4ac4a5f17fffb4878ed168072a2bb64 = $(`<div id="html_d4ac4a5f17fffb4878ed168072a2bb64" style="width: 100.0%; height: 100.0%;">Café Vienne, 400, Avenue Atlantic, Saint-Édouard, Outremont, Montréal, Agglomération de Montréal, Montréal (06), Québec, H2V 1A5, Canada</div>`)[0];
+            popup_193a01e72d5486201b39ffbde53ff2af.setContent(html_d4ac4a5f17fffb4878ed168072a2bb64);
+        
+
+        marker_327055964f04d4008741bf32ed01f7b0.bindPopup(popup_193a01e72d5486201b39ffbde53ff2af)
+        ;
+
+        
+    
+    
+            marker_327055964f04d4008741bf32ed01f7b0.bindTooltip(
+                `<div>
+                     Click Me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
