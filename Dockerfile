@@ -1,5 +1,6 @@
-FROM python:latest-slim
+FROM python:latest
 WORKDIR /app
 RUN pip install --no-cache-dir pandas folium
-COPY . .
+COPY main.py /app/
+#CMD ["python", "/app/main.py"]
 CMD bash
